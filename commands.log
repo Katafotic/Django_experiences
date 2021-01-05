@@ -1,0 +1,6 @@
+// Add command django-admin
+sudo apt install python3-django
+// Create project
+django-admin startproject test_site
+path: /Experiences/Django/Django_experiences/test_site
+python3.9  manage.py  runserver
