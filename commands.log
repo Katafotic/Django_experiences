@@ -1,5 +1,9 @@
+// After activate virtual environment
 // Add command django-admin
-sudo apt install python3-django
+pip3 install Django
+// Существует пакет python3-django, предоставляющий фреймворк. Его не стоит использовать
+// Если установить пакет python3-django, то также появится команда, но проект, созданный с её помощью будет иметь старую версию django - было 2.2.
+
 // Create project
 django-admin startproject test_site
 path: /Experiences/Django/Django_experiences/test_site
